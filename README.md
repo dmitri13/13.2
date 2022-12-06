@@ -71,7 +71,13 @@ Corosyns- это программный продукт, позволяющий �
 
 Пришлите конфигурации сервисов для каждой ноды, конфигурационный файл corosync и бэкап конфигурации pacemaker при помощи команды pcs config backup filename.`
 
+![node1_corosync](https://github.com/dmitri13/10_3/blob/main/img/coro_node1.png)
+![node1_status](https://github.com/dmitri13/10_3/blob/main/img/node1_status.png)
+![filename1](https://github.com/dmitri13/10_3/blob/main/img/filename1.tar.bz2)
 
+![node2_corosync](https://github.com/dmitri13/10_3/blob/main/img/coro_node2.png)
+![node2_status](https://github.com/dmitri13/10_3/blob/main/img/node2_status.png)
+![filename2](https://github.com/dmitri13/10_3/blob/main/img/filename2.tar.bz2)
 
 ### Задание 4
 
