@@ -47,7 +47,7 @@
 
 Пришлите скриншот рабочей конфигурации. 
 
-
+![bacula](https://github.com/dmitri13/10_4/blob/main/img/bacula1.png)
 
 ---
 
