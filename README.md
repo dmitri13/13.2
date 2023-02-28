@@ -49,61 +49,25 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.
  
-![sys_temp1](https://github
+![sys_temp1](https://github.com/dmitri13/12.2/blob/main/img/sys_temp1.png)
+![grant](https://github.com/dmitri13/12.2/blob/main/img/grants1.png)
+![sakila](https://github.com/dmitri13/12.2/blob/main/img/sakilatabl.png)
+![er](https://github.com/dmitri13/12.2/blob/main/img/er.png)
 ---
 
 ### Задание 2
 
-'Чем отличаются между собой алгоритмы балансировки round robin и weighted round robin?
- В каких случаях каждый из них лучше применять?'
+Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца:
+в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц.
+Пример: (скриншот/текст)
 
-Приведите ответ в свободной форме.
+![customer](https://github.com/dmitri13/12.2/blob/main/img/curtomer.png)
 
-Разница в распределении запросов, в round robin они идут последовательно на сервера,
-а в weighted можно настроить вес сервера, чтобы на него направить большее количество запросов. 
 
 ---
 
 ### Задание 3
 
-'Установите и запустите haproxy.'
 
-Приведите скриншот systemctl status haproxy, где будет видно, что haproxy запущен.
 
-![haproxystart](https://github.com/dmitri13/10_5/blob/main/img/haproxystart.png)
 
-### Задание 4
-
-Установите и запустите nginx.
-
-Приведите скриншот systemctl status nginx, где будет видно, что nginx запущен. 
-
-![nginxstart](https://github.com/dmitri13/10_5/blob/main/img/nginxstart.png)
-
----
-### Задание 5
-
-Настройте nginx на виртуальной машине таким образом, чтобы при запросе:
-
-curl http://localhost:8088/ping
-
-он возвращал в ответе строчку:
-
-"nginx is configured correctly"
-
-Приведите скриншот получившейся конфигурации.
-![nginx](https://github.com/dmitri13/10_5/blob/main/img/nginxping2.png)
-
-### Задание 6*.
-
-Настройте haproxy таким образом, чтобы при ответе на запрос:
-
-curl http://localhost:8080/
-
-он проксировал его в nginx на порту 8088, который был настроен в задании 5 и возвращал от него ответ:
-
-"nginx is configured correctly".
-
-Приведите скриншот получившейся конфигурации.
-
-![config](https://github.com/dmitri13/10_5/blob/main/img/hapnginx.png)
