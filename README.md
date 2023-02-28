@@ -61,7 +61,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц.
 Пример: (скриншот/текст)
 
-![customer](https://github.com/dmitri13/12.2/blob/main/img/curtomer.png)
+![customer](https://github.com/dmitri13/12.2/blob/main/img/customer.png)
 
 
 ---
