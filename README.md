@@ -27,9 +27,16 @@
 Получите уникальные названия районов из таблицы с адресами, которые начинаются на “K” и заканчиваются на “a” и не содержат пробелов.
 
 Что-то у меня пусто все, не выдает названия, причем из терминала также
+
+select distinct district from address
+where district like 'K%a' and district not like '% %'
+
 ![sakila](https://github.com/dmitri13/12.3/blob/main/img/sakila2.png)
 
-Прошу подсказать, где может быть ошибка
+вот из терминала делал
+![term](https://github.com/dmirti13/12.3/blob/main/img/term.png)
+
+да таблица пустая почему-то
 
 ---
 
