@@ -34,6 +34,7 @@ where district like 'K%a' and district not like '% %'
 ![sakila](https://github.com/dmitri13/12.3/blob/main/img/sakila2.png)
 
 вот из терминала делал
+
 ![term](https://github.com/dmirti13/12.3/blob/main/img/term.png)
 
 да таблица пустая почему-то
