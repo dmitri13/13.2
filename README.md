@@ -41,7 +41,7 @@ master-master, все копируют друг друга, один удали�
 
 Приложите скриншоты конфигурации, выполнения работы: состояния и режимы работы серверов.
 
-![docker](https://github.com/dmitri13/12.6.blob/main/img/dockerps.png)
+![docker](https://github.com/dmitri13/12.6/blob/main/img/dockerps.png)
 
 ![master](https://github.com/dmitri13/12.6/blob/main/img/master111.png)
 
