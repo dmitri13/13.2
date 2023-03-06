@@ -39,9 +39,9 @@
 
 Приведите ответ в свободной форме.
 
-1.1. Полное или дифференциальное
-2.2. Инкрементное, чтобы не занимать много места. 
-1.3. Master-slave
+1.1. Полное или дифференциальное.
+1.2. Инкрементное, чтобы не занимать много места. 
+1.3. Master-slave.
 
 ---
 
@@ -67,13 +67,13 @@ pg_restore -d name.dump name
 2.2
 Можно конечно, написать скрипт и добавить его в crontab
 
- #!/bin/sh
- PATH=/etc:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
- PGPASSWORD=password
- export PGPASSWORD
- pathB=/backup
- dbUser=dbadmin
- database=dbname
+- #!/bin/sh
+- PATH=/etc:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+- PGPASSWORD=password
+- export PGPASSWORD
+- pathB=/backup
+- dbUser=dbadmin
+- database=dbname
 
 ---
 
@@ -89,8 +89,8 @@ MySQL
 
 3.1
 
-mysqlbackup --defaults-file=/home/dbadmin/my.cnf \
+-mysqlbackup --defaults-file=/home/dbadmin/my.cnf \
   --incremental --incremental-base=history:last_backup \
   --backup-dir=/home/dbadmin/temp_dir \
   --backup-image=incremental_image1.bi \
-   backup-to-image
+-   backup-to-image
